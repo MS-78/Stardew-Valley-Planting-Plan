@@ -1,0 +1,22 @@
+package com.stardew.planner.model;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+import java.time.LocalDateTime;
+
+@Data
+@TableName("tools")
+public class Tool {
+    @TableId(type = IdType.ASSIGN_UUID)
+    private String id;
+    private String name;
+    private String type;
+    private String coverageOffsets;
+    private Boolean blocksWalking;
+    private Integer price;
+    private String icon;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+}

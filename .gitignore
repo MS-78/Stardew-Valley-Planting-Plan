@@ -1,0 +1,52 @@
+# ======================
+# Build artifacts
+# ======================
+front/dist/
+front/node_modules/
+server/target/
+
+# ======================
+# IDE & Editor
+# ======================
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ======================
+# AI Tools
+# ======================
+.claude/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.local
+.env.*.local
+
+# ======================
+# Logs
+# ======================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# Temporary test data
+# ======================
+fall_test.json
+summer_test.json
